@@ -1,4 +1,5 @@
-package edu.jafete.java;
+package edu.jafete.java.MinhaClasse;
+
 public class MinhaClasse {
 
 public static void main (String [] args) {

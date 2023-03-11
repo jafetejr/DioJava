@@ -17,7 +17,7 @@ public class Operadores {
         System.out.println(nomeAula);
 
         int numero = 1;
-        numero = ++ numero;
+        numero ++;
         System.out.println(numero ++);
         
         System.out.println(numero);
