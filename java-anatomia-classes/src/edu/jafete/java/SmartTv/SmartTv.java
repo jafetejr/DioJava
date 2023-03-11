@@ -36,11 +36,11 @@ public class SmartTv {
     }
 
     public void mudarCanal(int canalEscolhido){
-        Scanner canalScanner = new  Scanner(System.in);
+        Scanner scanner = new  Scanner(System.in);
 
         System.out.println("QUAL CANAL VOCE DESEJA ASSISTIR?");
-        canalEscolhido = canalScanner.nextInt();
-        canalScanner.close();
+        canalEscolhido = scanner.nextInt();
+        scanner.close();
         
         canal = canalEscolhido;        
         System.out.println("Canal Escolhido: " + canalEscolhido);
