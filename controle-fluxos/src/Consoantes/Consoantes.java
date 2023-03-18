@@ -16,7 +16,7 @@ public class Consoantes {
             System.out.print("Digite uma letra: ");
             letra[x] = scanner.next();
         }
-
+        scanner.close();
         for (int x=0; x<5; x++){
             if (!(letra[x].equalsIgnoreCase("a")) |
                 (letra[x].equalsIgnoreCase( "e")) |
